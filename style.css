@@ -1,0 +1,50 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4f8;
+  color: #2d3748;
+  line-height: 1.6;
+}
+
+header {
+  background: #2b6cb0;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+header p  { font-size: 1.1rem; opacity: 0.85; }
+
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 { font-size: 1.5rem; margin-bottom: 16px; color: #2b6cb0; }
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+}
+
+.skill-card {
+  background: white;
+  border: 1px solid #bee3f8;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #2b6cb0;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #2d3748;
+  color: #a0aec0;
+  margin-top: 60px;
+}
