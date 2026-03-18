@@ -49,6 +49,7 @@ jobs:
   #Deploy in Render : 
        - name: Render Deploy
          run: |
+            sleep 10
             curl "${{secrets.RENDER_DEPLOY_HOOK}}" 
            
    
