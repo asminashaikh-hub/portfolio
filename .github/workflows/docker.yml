@@ -46,6 +46,9 @@ jobs:
             cache-to: type=gha,mode=max
          
     
-            
+  #Deploy in Render : 
+       - name: Render Deploy
+         run: |
+            curl: ${{secrets.RENDER_DEPLOY_HOOK}}
            
    
